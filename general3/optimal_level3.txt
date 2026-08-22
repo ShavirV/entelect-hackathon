@@ -1,0 +1,1 @@
+{"actions": [{"type": "travel", "destination": "N9", "fast": false}, {"type": "gather"}, {"type": "gather"}, {"type": "travel", "destination": "Demacia", "fast": false}, {"type": "craft", "item": "iron-fittings", "quantity": 2}, {"type": "craft", "item": "planks", "quantity": 2}, {"type": "craft", "item": "pickaxe", "quantity": 1}]}

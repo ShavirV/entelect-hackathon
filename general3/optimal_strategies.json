@@ -1,0 +1,515 @@
+{
+  "1": {
+    "best": {
+      "name": "Multiple Top Nodes",
+      "type": "multi_gather",
+      "actions": 31,
+      "invalid": 12,
+      "valid": 19,
+      "final_tick": 1000,
+      "enteloot": 13838.0,
+      "held_value": 6636,
+      "items_sold": 56,
+      "multiplier": 1.5,
+      "upgrades": 0,
+      "score": 30711.0,
+      "success": false,
+      "actions_list": [
+        {
+          "type": "travel",
+          "destination": "N1"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "N3"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "N7"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Demacia"
+        },
+        {
+          "type": "sell",
+          "item": "sheep",
+          "quantity": 64
+        },
+        {
+          "type": "sell",
+          "item": "fish",
+          "quantity": 56
+        },
+        {
+          "type": "sell",
+          "item": "stone",
+          "quantity": 64
+        }
+      ]
+    },
+    "error": null
+  },
+  "2": {
+    "best": {
+      "name": "Craft: stew (profit: 20)",
+      "type": "craft_loop",
+      "actions": 20,
+      "invalid": 16,
+      "valid": 4,
+      "final_tick": 5000,
+      "enteloot": 26975.0,
+      "held_value": 54947,
+      "items_sold": 4,
+      "multiplier": 1.5,
+      "upgrades": 0,
+      "score": 122883.0,
+      "success": false,
+      "actions_list": [
+        {
+          "type": "travel",
+          "destination": "N14"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "craft",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N14"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "craft",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N14"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "craft",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N14"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "craft",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N14"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "craft",
+          "item": "stew",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "stew",
+          "quantity": 2
+        }
+      ]
+    },
+    "error": null
+  },
+  "3": {
+    "best": {
+      "name": "Craft: furniture (profit: 26)",
+      "type": "craft_loop",
+      "actions": 25,
+      "invalid": 19,
+      "valid": 6,
+      "final_tick": 50000,
+      "enteloot": 47925.0,
+      "held_value": 847383,
+      "items_sold": 6,
+      "multiplier": 1.5,
+      "upgrades": 0,
+      "score": 1342962.0,
+      "success": false,
+      "actions_list": [
+        {
+          "type": "travel",
+          "destination": "N10"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Freljord"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N10"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Freljord"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N10"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Freljord"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N10"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Freljord"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N10"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Freljord"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        }
+      ]
+    },
+    "error": null
+  },
+  "4": {
+    "best": {
+      "name": "Craft: furniture (profit: 28)",
+      "type": "craft_loop",
+      "actions": 35,
+      "invalid": 29,
+      "valid": 6,
+      "final_tick": 100000,
+      "enteloot": 77095.0,
+      "held_value": 2790666,
+      "items_sold": 6,
+      "multiplier": 1.5,
+      "upgrades": 0,
+      "score": 4301641.5,
+      "success": false,
+      "actions_list": [
+        {
+          "type": "travel",
+          "destination": "N12"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Questral"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "Noxus"
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N12"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Questral"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "Noxus"
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N12"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Questral"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "Noxus"
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N12"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Questral"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "Noxus"
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "N12"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "gather"
+        },
+        {
+          "type": "travel",
+          "destination": "Questral"
+        },
+        {
+          "type": "craft",
+          "item": "furniture",
+          "quantity": 2
+        },
+        {
+          "type": "travel",
+          "destination": "Noxus"
+        },
+        {
+          "type": "sell",
+          "item": "furniture",
+          "quantity": 2
+        }
+      ]
+    },
+    "error": null
+  }
+}
