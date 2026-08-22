@@ -1,0 +1,9391 @@
+{
+  "actions": [
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 14
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 4
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 14
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 4
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 14
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N14",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 4
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 8
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 14
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N4",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 8
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 2
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N7",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 3
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 2
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 4
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 1
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 3
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N7",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 14
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "sheep",
+      "quantity": 4
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N7",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 6
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 6
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 3
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 6
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N7",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "stone",
+      "quantity": 5
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N11",
+      "fast": false
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N2",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal",
+      "fast": false
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 5
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 2
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 5
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "N1",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    },
+    {
+      "type": "buy",
+      "item": "wheat",
+      "quantity": 30
+    },
+    {
+      "type": "craft",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun",
+      "fast": false
+    },
+    {
+      "type": "sell",
+      "item": "bread",
+      "quantity": 10
+    },
+    {
+      "type": "travel",
+      "destination": "Targon",
+      "fast": false
+    }
+  ]
+}
