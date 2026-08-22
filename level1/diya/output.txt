@@ -1,0 +1,21 @@
+#  type      valid  ticks  tick  enteloot  detail
+0  travel    True   2      2     200.0     travelled to N1 (toll=0)
+1  gather    True   2      4     1800.0    gathered 6 wheat
+2  gather    True   2      6     5200.0    gathered 6 wheat
+3  travel    True   2      8     7900.0    travelled to Demacia (toll=0)
+4  sell      True   1      9     8624.0    sold 12 wheat for 24
+5  buy       True   1      10    9800.0    bought 3 sheep for 24
+6  travel    True   6      16    17500.0   travelled to Piltover (toll=0)
+7  sell      True   1      17    17515.0   sold 3 sheep for 15
+8  travel    False  1      18    19715.0   no route Piltover->Nowhere
+9  craft     False  1      19    19715.0   craft not unlocked at level 1
+10 sell      False  1      20    21815.0   not enough fish (3 < 999)
+
+=== SUMMARY ===
+final_tick: 1000
+final_enteloot: 1202915.0
+final_inventory: {'wheat': 375, 'wood': 583, 'stone': 499, 'clay': 541, 'fish': 300, 'sheep': 450, 'ore': 0}
+items_sold_count: 15
+held_value: 9610
+sell_bonus_multiplier_applied: 1.5
+estimated_score: 1818787.5
