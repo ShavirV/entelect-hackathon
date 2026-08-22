@@ -142,24 +142,16 @@ def main():
     result, invalid = replay(constants, level, level_number, actions)
     result["_total_ticks"] = level["run"]["total_ticks"]
 
-    # Tail income: capped rather than on/off. Uncapped, the batch search
-    # fills ~85% of every idle tick, which on this map meant 14k+ extra
-    # gather actions for Enteloot that (per the spec) scores "far less"
-    # once hoarded - but empirically it still scores *something* on this
-    # level, so cutting it entirely (as we now do for Level 2) measured
-    # worse here. MAX_TAIL_TICKS bounds the batch to a small, cheap slice
-    # of the idle budget so most of that residual value is captured without
-    # the 10x+ blowup in action count / solve time. Tune this constant
-    # against your real grader if the trade-off point moves.
-    MAX_TAIL_TICKS = 3000
+    # Uncapped: the real grader weights final Enteloot heavily (measured:
+    # capping this cost ~10x score vs uncapped), and runtime is not a
+    # constraint, so maximize the tail rather than bounding it.
     if not invalid and result["final_tick"] < level["run"]["total_ticks"]:
         idle = level["run"]["total_ticks"] - result["final_tick"]
-        print(f"\nAdding capped tail income phase (idle ticks: {idle}, "
-              f"using up to {min(idle, MAX_TAIL_TICKS)})...")
+        print(f"\nAdding tail income phase (idle ticks: {idle})...")
         actions, result = plan_income_tail(
             constants, level, level_number, hub, actions,
             use_upkeep=False,  # Level 3 doesn't have upkeep
-            max_tail_ticks=MAX_TAIL_TICKS,
+            max_tail_ticks=None,
         )
         # Re-verify the combined plan
         result, invalid = replay(constants, level, level_number, actions)

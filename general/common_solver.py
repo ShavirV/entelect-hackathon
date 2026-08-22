@@ -295,27 +295,42 @@ def choose_town_tour(adj, start, towns, travel_delta=0, travel_min=1):
     return order
 
 
-def best_income_recipe(constants, level, hub, level_number):
-    """Pick the recipe with the best Enteloot per tick (including gather, travel, craft, sell)
-    at the hub town. More accurate than price/raw_units."""
+def best_income_recipe(constants, level, hub, level_number, restrict_to_hub=False):
+    """Pick the (recipe, sell_town) combination with the best Enteloot per
+    tick (gather + travel + craft + one-time travel to the best-paying
+    reachable town + sell), amortizing the extra travel over the batch size
+    the caller intends to sell. Crafted-good prices vary meaningfully by
+    town (item-rates), so restricting the sale to the hub - as the earlier
+    version of this function did - leaves real Enteloot on the table
+    whenever a nearby town pays noticeably more than the hub for the same
+    good. The one-time travel cost from hub to sell_town is folded into the
+    ticks estimate as if it were a single unit's overhead; for a large
+    batch (the tail's use case) that overhead is negligible per unit, so
+    this doesn't need to be batch-size-aware to be a good choice.
+
+    `restrict_to_hub=True` reproduces the old hub-only behaviour (sell_town
+    forced to hub, no extra travel). Used for the small shortfall-funding
+    batch inside build_actions_for_pairs, where selling elsewhere would
+    require inserting travel into the middle of the build tour for a
+    typically small amount of Enteloot - not worth the complexity there.
+    The tail batch (a single big one-shot sale at the very end of the plan)
+    is where the sell-town optimization actually pays off, so it's applied
+    only there.
+    """
     town = level["towns"][hub]
     adj = build_adjacency(level["routes"])
     dist, _ = dijkstra(adj, hub)  # standard shortest distances (no tools)
     craft_time = constants["constants"]["craft_time_affinity"] if "crafting" in town.get("affinities", []) else constants["constants"]["craft_time_base"]
-    best = None
+    best = None  # (recipe_name, enteloot_per_tick, price, sell_town, travel_to_sell_town)
     for name, recipe in constants["recipes"].items():
         min_level = recipe.get("min_level")
         if min_level and level_number < min_level:
             continue
-        price = town.get("item-rates", {}).get(name)
-        if price is None:
-            continue
-        # Estimate total ticks to produce and sell 1 unit
-        total_ticks = craft_time  # craft
-        total_ticks += 1          # sell action
+        # Gather/craft overhead (recipe- and hub-specific, independent of
+        # where we ultimately sell).
+        gather_craft_ticks = craft_time  # craft
         feasible = True
         for resource, amt in recipe["inputs"].items():
-            # Find nearest node that yields this resource
             best_node = None
             best_dist = None
             for node_name, node in level["nodes"].items():
@@ -330,12 +345,22 @@ def best_income_recipe(constants, level, hub, level_number):
             gather_time = level["nodes"][best_node]["gather-time"]
             yield_per = level["nodes"][best_node]["yield"]
             gathers = (amt + yield_per - 1) // yield_per
-            total_ticks += 2 * best_dist + gathers * gather_time
+            gather_craft_ticks += 2 * best_dist + gathers * gather_time
         if not feasible:
             continue
-        enteloot_per_tick = price / total_ticks
-        if best is None or enteloot_per_tick > best[1]:
-            best = (name, enteloot_per_tick, price)
+
+        sell_town_candidates = [hub] if restrict_to_hub else list(level["towns"])
+        for sell_town_name in sell_town_candidates:
+            price = level["towns"][sell_town_name].get("item-rates", {}).get(name)
+            if price is None:
+                continue
+            travel_to_sell = dist.get(sell_town_name)
+            if travel_to_sell is None:
+                continue
+            total_ticks = gather_craft_ticks + travel_to_sell + 1  # + sell action
+            enteloot_per_tick = price / total_ticks
+            if best is None or enteloot_per_tick > best[1]:
+                best = (name, enteloot_per_tick, price, sell_town_name, travel_to_sell)
     return best
 
 
@@ -373,9 +398,9 @@ def build_actions_for_pairs(constants, level, pairs, hub, extra_target_items=Non
     income_recipe = None
     shortfall = enteloot_cost - level["run"]["starting_enteloot"]
     if shortfall > 0:
-        picked = best_income_recipe(constants, level, hub, level_number)
+        picked = best_income_recipe(constants, level, hub, level_number, restrict_to_hub=True)
         if picked is not None:
-            income_recipe, _score, price = picked
+            income_recipe, _epc, price, _sell_town, _travel = picked
             income_qty = math.ceil(shortfall / price)
             top_level = [(income_recipe, income_qty)] + top_level
 
@@ -556,7 +581,7 @@ def _tail_batch_actions(constants, level, level_number, hub, current, adj, qty, 
     picked = best_income_recipe(constants, level, hub, level_number)
     if picked is None or qty <= 0:
         return [], None
-    recipe_name, _score, _price = picked
+    recipe_name, _epc, _price, sell_town, _travel_to_sell = picked
 
     actions = []
     actions.extend(path_actions(adj, current, hub))
@@ -598,6 +623,10 @@ def _tail_batch_actions(constants, level, level_number, hub, current, adj, qty, 
         if q > 0:
             actions.append({"type": "craft", "item": item, "quantity": q})
 
+    if cur != sell_town:
+        actions.extend(path_actions(adj, cur, sell_town))
+        cur = sell_town
+
     actions.append({"type": "sell", "item": recipe_name, "quantity": qty})
     return actions, recipe_name
 
@@ -609,7 +638,7 @@ def _estimate_tail_ticks_per_unit(constants, level, level_number, hub):
     picked = best_income_recipe(constants, level, hub, level_number)
     if picked is None:
         return None, None
-    recipe_name, _score, _price = picked
+    recipe_name, _epc, _price, _sell_town, _travel_to_sell = picked
     recipe = constants["recipes"][recipe_name]
     town = level["towns"][hub]
     per_item_craft = (constants["constants"]["craft_time_affinity"]
