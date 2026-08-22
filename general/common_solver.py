@@ -515,3 +515,172 @@ def plan_feasible_prefix(constants, level, level_number, ordered_pairs, hub,
         k += 1
 
     return best_actions, best_meta, ordered_pairs[:best_k]
+
+
+# ---------------------------------------------------------------------------
+# Tail income phase: once every buildable upgrade is exhausted (each can
+# only be built once per town, so the candidate list is finite), there is
+# nothing left to invest Enteloot in - but leftover ticks are NOT nothing:
+# the spec is explicit that "Hoarded Enteloot scores far less than Enteloot
+# invested", implying it still scores something, so idle ticks at the end
+# of a run are pure waste. This phase converts them into one large
+# gather -> craft -> sell batch of the hub's best-paying recipe (sized to
+# fit the remaining tick budget almost exactly), optionally preceded by an
+# upkeep trigger at the hub on Level 4 for a small bonus during the batch.
+# ---------------------------------------------------------------------------
+
+def _tail_batch_actions(constants, level, level_number, hub, current, adj, qty, use_upkeep):
+    raw_names = set(constants["resources"])
+    picked = best_income_recipe(constants, level, hub, level_number)
+    if picked is None or qty <= 0:
+        return [], None
+    recipe_name, _score, _price = picked
+
+    actions = []
+    actions.extend(path_actions(adj, current, hub))
+    if use_upkeep:
+        actions.append({"type": "upkeep"})
+
+    craft_totals, raw_totals, craft_order = explode([(recipe_name, qty)], constants, raw_names)
+    dist_from_hub, _ = dijkstra(adj, hub)
+    node_choices = {}
+    for resource, quantity in raw_totals.items():
+        if quantity <= 0:
+            continue
+        node_choices[resource] = choose_gather_node(resource, quantity, level["nodes"], dist_from_hub)
+
+    remaining_nodes = {c["node"] for c in node_choices.values()}
+    cur = hub
+    while remaining_nodes:
+        distances, prev = dijkstra(adj, cur)
+        reachable = [n for n in remaining_nodes if n in distances]
+        if not reachable:
+            raise ValueError("unreachable gather node in tail batch")
+        nxt = min(reachable, key=lambda n: (distances[n], n))
+        path = reconstruct_path(prev, cur, nxt)
+        for dest in path[1:]:
+            actions.append({"type": "travel", "destination": dest})
+        resource = level["nodes"][nxt]["resource"]
+        choice = node_choices[resource]
+        for _ in range(choice["gathers"]):
+            actions.append({"type": "gather"})
+        cur = nxt
+        remaining_nodes.remove(nxt)
+
+    if cur != hub:
+        actions.extend(path_actions(adj, cur, hub))
+        cur = hub
+
+    for item in craft_order:
+        q = craft_totals[item]
+        if q > 0:
+            actions.append({"type": "craft", "item": item, "quantity": q})
+
+    actions.append({"type": "sell", "item": recipe_name, "quantity": qty})
+    return actions, recipe_name
+
+
+def _estimate_tail_ticks_per_unit(constants, level, level_number, hub):
+    """Rough ticks-per-crafted-unit estimate (craft time + gather time for
+    inputs, amortizing travel over a large batch) - used only to pick a
+    sensible starting point for the batch-size search, not for correctness."""
+    picked = best_income_recipe(constants, level, hub, level_number)
+    if picked is None:
+        return None, None
+    recipe_name, _score, _price = picked
+    recipe = constants["recipes"][recipe_name]
+    town = level["towns"][hub]
+    per_item_craft = (constants["constants"]["craft_time_affinity"]
+                       if "crafting" in town.get("affinities", [])
+                       else constants["constants"]["craft_time_base"])
+    adj = build_adjacency(level["routes"])
+    dist_from_hub, _ = dijkstra(adj, hub)
+    ticks_per_unit = per_item_craft
+    for resource, amt in recipe["inputs"].items():
+        best_rate = None
+        for node in level["nodes"].values():
+            if node["resource"] != resource:
+                continue
+            rate = node["gather-time"] / node["yield"]
+            if best_rate is None or rate < best_rate:
+                best_rate = rate
+        if best_rate is None:
+            return None, None
+        ticks_per_unit += amt * best_rate
+    return recipe_name, ticks_per_unit
+
+
+def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upkeep=False):
+    """Append a single large income batch to `prior_actions`, sized via a
+    bounded local search to use as much of the remaining tick budget as
+    possible without introducing any invalid/cutoff actions. Returns
+    (combined_actions, result) - if no income recipe / no reachable inputs
+    exist, returns prior_actions unchanged."""
+    total_ticks = level["run"]["total_ticks"]
+    adj = build_adjacency(level["routes"])
+
+    base_result, base_invalid = replay(constants, level, level_number, prior_actions)
+    if base_invalid:
+        return prior_actions, base_result
+    current = base_result["final_location"]
+    remaining_ticks = total_ticks - base_result["final_tick"]
+    if remaining_ticks <= 0:
+        return prior_actions, base_result
+
+    recipe_name, ticks_per_unit = _estimate_tail_ticks_per_unit(constants, level, level_number, hub)
+    if recipe_name is None:
+        return prior_actions, base_result
+
+    def feasible(qty):
+        try:
+            batch, _r = _tail_batch_actions(
+                constants, level, level_number, hub, current, adj, qty, use_upkeep,
+            )
+        except ValueError:
+            return False, None
+        combined = prior_actions + batch
+        result, invalid = replay(constants, level, level_number, combined)
+        ok = (not invalid) and result["final_tick"] <= total_ticks
+        return ok, combined
+
+    # Start from an analytic estimate (ignoring travel/toll overhead, hence
+    # a safety margin), then locally search up/down for the exact ceiling.
+    guess = max(1, int((remaining_ticks / ticks_per_unit) * 0.85))
+
+    best_qty, best_combined = 0, prior_actions
+    ok, combined = feasible(guess)
+    if ok:
+        best_qty, best_combined = guess, combined
+        # grow while feasible
+        step = max(1, guess // 4)
+        qty = guess
+        while step >= 1:
+            while True:
+                ok, combined = feasible(qty + step)
+                if ok:
+                    qty += step
+                    best_qty, best_combined = qty, combined
+                else:
+                    break
+            step //= 2
+    else:
+        # shrink from guess down to something feasible
+        qty = guess
+        step = max(1, guess // 4)
+        while qty > 0 and not ok:
+            qty = max(0, qty - step)
+            ok, combined = feasible(qty)
+        if ok:
+            best_qty, best_combined = qty, combined
+            step = max(1, step // 2)
+            while step >= 1:
+                while True:
+                    ok, combined = feasible(best_qty + step)
+                    if ok:
+                        best_qty, best_combined = best_qty + step, combined
+                    else:
+                        break
+                step //= 2
+
+    final_result, final_invalid = replay(constants, level, level_number, best_combined)
+    return best_combined, final_result
