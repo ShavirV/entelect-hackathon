@@ -52784,15 +52784,6 @@
       "type": "gather"
     },
     {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
       "type": "travel",
       "destination": "N17"
     },
@@ -52819,7 +52810,7 @@
     {
       "type": "craft",
       "item": "stone-works",
-      "quantity": 23684
+      "quantity": 23680
     },
     {
       "type": "travel",
@@ -52848,7 +52839,42 @@
     {
       "type": "sell",
       "item": "stone-works",
-      "quantity": 23684
+      "quantity": 23680
+    },
+    {
+      "type": "sell",
+      "item": "ore",
+      "quantity": 4
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 88068
+    },
+    {
+      "type": "sell",
+      "item": "wood",
+      "quantity": 103835
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 92454
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 79229
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 33255
+    },
+    {
+      "type": "sell",
+      "item": "clay",
+      "quantity": 60004
     }
   ]
 }

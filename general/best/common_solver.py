@@ -692,6 +692,46 @@ def _estimate_tail_ticks_per_unit(constants, level, level_number, hub):
     return recipe_name, ticks_per_unit
 
 
+def liquidate_inventory_actions(constants, level, inventory, current_location):
+    """Sell off everything still sitting in inventory, converting it from
+    'held items value' into actual sale revenue / Enteloot.
+
+    Passive town trickle (Assumption 5/6) credits resources from EVERY
+    town automatically over the whole run, whether or not the player ever
+    visits that town or gathers that resource - only towns whose resources
+    happen to be needed for crafting/building ever get consumed. Over a
+    run of tens of thousands of ticks across a dozen-plus towns, that
+    trickle adds up to a huge pile of raw resources that nothing in the
+    plan otherwise touches. It still shows up as 'held items value' at
+    scoring time, but the spec is explicit that hoarded value scores less
+    than realized value ("Hoarded Enteloot scores far less than Enteloot
+    invested"; Level 1 grants an explicit multiplier for items actually
+    sold) - so liquidating it is free money the plan was otherwise leaving
+    on the table.
+
+    Raw resources sell at a fixed global price regardless of location,
+    so no travel is needed - just a `sell` action per resource that still
+    has a positive balance. Any leftover *crafted* good (shouldn't
+    normally happen, since the tail batch crafts exactly what it sells)
+    is sold at whatever the current town pays for it, since it's not
+    worth adding travel just to chase a better price on top-up dust.
+    """
+    raw_names = set(constants["resources"])
+    recipes = constants["recipes"]
+    town = level["towns"].get(current_location)
+
+    actions = []
+    for item, qty in inventory.items():
+        if qty <= 0:
+            continue
+        if item in raw_names:
+            actions.append({"type": "sell", "item": item, "quantity": qty})
+        elif item in recipes and town and item in town.get("item-rates", {}):
+            actions.append({"type": "sell", "item": item, "quantity": qty})
+        # components/tools are never sellable - nothing to do for those.
+    return actions
+
+
 def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upkeep=False,
                       max_tail_ticks=None):
     """Append a single income batch to `prior_actions`, sized via a bounded
@@ -721,6 +761,15 @@ def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upk
         return prior_actions, base_result
     if max_tail_ticks is not None:
         remaining_ticks = min(remaining_ticks, max_tail_ticks)
+
+    # Reserve a small amount of headroom so the batch-size search doesn't
+    # spend every last tick, leaving no room for the final inventory
+    # liquidation below (each sell action is 1 tick; at most one per raw
+    # resource type, so this is a tiny, fixed reservation regardless of
+    # how large total_ticks is).
+    liquidation_headroom = len(constants["resources"])
+    remaining_ticks = max(0, remaining_ticks - liquidation_headroom)
+
     # Hard ceiling on ticks the batch itself may consume, independent of the
     # overall total_ticks budget. Previously max_tail_ticks only seeded the
     # initial guess - the grow-while-feasible search below would then climb
@@ -786,4 +835,38 @@ def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upk
                 step //= 2
 
     final_result, final_invalid = replay(constants, level, level_number, best_combined)
+
+    # Sell off whatever passive trickle / leftovers are still sitting in
+    # inventory - this is what the headroom reserved above was for. Try
+    # the full liquidation first; if for some reason it doesn't fit (e.g.
+    # a level with an unusually tight budget), shrink the batch by one
+    # more headroom-sized step and retry once rather than silently
+    # dropping real, free Enteloot.
+    if not final_invalid:
+        liquidation = liquidate_inventory_actions(
+            constants, level, final_result["final_inventory"], final_result["final_location"],
+        )
+        if liquidation:
+            candidate = best_combined + liquidation
+            candidate_result, candidate_invalid = replay(constants, level, level_number, candidate)
+            if not candidate_invalid and candidate_result["final_tick"] <= total_ticks:
+                return candidate, candidate_result
+            # Retry with a smaller batch to free up the room this needed.
+            shrink = max(1, best_qty // 20)
+            retry_qty = max(0, best_qty - shrink)
+            if retry_qty < best_qty:
+                batch, _r = _tail_batch_actions(
+                    constants, level, level_number, hub, current, adj, retry_qty, use_upkeep,
+                )
+                shrunk = prior_actions + batch
+                shrunk_result, shrunk_invalid = replay(constants, level, level_number, shrunk)
+                if not shrunk_invalid:
+                    liquidation = liquidate_inventory_actions(
+                        constants, level, shrunk_result["final_inventory"], shrunk_result["final_location"],
+                    )
+                    candidate = shrunk + liquidation
+                    candidate_result, candidate_invalid = replay(constants, level, level_number, candidate)
+                    if not candidate_invalid and candidate_result["final_tick"] <= total_ticks:
+                        return candidate, candidate_result
+
     return best_combined, final_result

@@ -4243,12 +4243,6 @@
       "type": "gather"
     },
     {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
       "type": "travel",
       "destination": "Shurima"
     },
@@ -4259,7 +4253,7 @@
     {
       "type": "craft",
       "item": "stone-works",
-      "quantity": 20
+      "quantity": 17
     },
     {
       "type": "travel",
@@ -4288,7 +4282,32 @@
     {
       "type": "sell",
       "item": "stone-works",
-      "quantity": 20
+      "quantity": 17
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 2013
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 2539
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 6476
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 3465
+    },
+    {
+      "type": "sell",
+      "item": "clay",
+      "quantity": 853
     }
   ]
 }

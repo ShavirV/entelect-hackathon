@@ -78184,12 +78184,6 @@
       "type": "gather"
     },
     {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
       "type": "travel",
       "destination": "Marrowfen"
     },
@@ -78200,12 +78194,51 @@
     {
       "type": "craft",
       "item": "wool-garments",
-      "quantity": 56680
+      "quantity": 56673
+    },
+    {
+      "type": "travel",
+      "destination": "Marrowfen"
     },
     {
       "type": "sell",
       "item": "wool-garments",
-      "quantity": 56680
+      "quantity": 56673
+    },
+    {
+      "type": "sell",
+      "item": "wheat",
+      "quantity": 296249
+    },
+    {
+      "type": "sell",
+      "item": "stone",
+      "quantity": 264238
+    },
+    {
+      "type": "sell",
+      "item": "sheep",
+      "quantity": 285763
+    },
+    {
+      "type": "sell",
+      "item": "fish",
+      "quantity": 303846
+    },
+    {
+      "type": "sell",
+      "item": "wood",
+      "quantity": 160772
+    },
+    {
+      "type": "sell",
+      "item": "clay",
+      "quantity": 119092
+    },
+    {
+      "type": "sell",
+      "item": "ore",
+      "quantity": 2
     }
   ]
 }
