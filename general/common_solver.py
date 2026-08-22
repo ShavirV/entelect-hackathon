@@ -296,12 +296,12 @@ def choose_town_tour(adj, start, towns, travel_delta=0, travel_min=1):
 
 
 def best_income_recipe(constants, level, hub, level_number):
-    """Pick the recipe with the best Enteloot-per-raw-unit return at the hub
-    town, to fund upgrade builds beyond the starting Enteloot balance. This
-    is a coarse efficiency proxy (item-rate at the hub / total raw units
-    consumed per craft) - good enough to close an Enteloot shortfall without
-    needing a full profitability search across every town/recipe pair."""
+    """Pick the recipe with the best Enteloot per tick (including gather, travel, craft, sell)
+    at the hub town. More accurate than price/raw_units."""
     town = level["towns"][hub]
+    adj = build_adjacency(level["routes"])
+    dist, _ = dijkstra(adj, hub)  # standard shortest distances (no tools)
+    craft_time = constants["constants"]["craft_time_affinity"] if "crafting" in town.get("affinities", []) else constants["constants"]["craft_time_base"]
     best = None
     for name, recipe in constants["recipes"].items():
         min_level = recipe.get("min_level")
@@ -310,10 +310,32 @@ def best_income_recipe(constants, level, hub, level_number):
         price = town.get("item-rates", {}).get(name)
         if price is None:
             continue
-        total_units = sum(recipe["inputs"].values())
-        score = price / total_units
-        if best is None or score > best[1]:
-            best = (name, score, price)
+        # Estimate total ticks to produce and sell 1 unit
+        total_ticks = craft_time  # craft
+        total_ticks += 1          # sell action
+        feasible = True
+        for resource, amt in recipe["inputs"].items():
+            # Find nearest node that yields this resource
+            best_node = None
+            best_dist = None
+            for node_name, node in level["nodes"].items():
+                if node["resource"] != resource or node_name not in dist:
+                    continue
+                if best_dist is None or dist[node_name] < best_dist:
+                    best_dist = dist[node_name]
+                    best_node = node_name
+            if best_node is None:
+                feasible = False
+                break
+            gather_time = level["nodes"][best_node]["gather-time"]
+            yield_per = level["nodes"][best_node]["yield"]
+            gathers = (amt + yield_per - 1) // yield_per
+            total_ticks += 2 * best_dist + gathers * gather_time
+        if not feasible:
+            continue
+        enteloot_per_tick = price / total_ticks
+        if best is None or enteloot_per_tick > best[1]:
+            best = (name, enteloot_per_tick, price)
     return best
 
 
