@@ -4289,6 +4289,88 @@
     {
       "type": "build",
       "upgrade": "fire-station"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "wool-garments",
+      "quantity": 16
+    },
+    {
+      "type": "sell",
+      "item": "wool-garments",
+      "quantity": 16
     }
   ]
 }

@@ -33,6 +33,7 @@ from common_solver import (
     candidate_upgrade_order,
     plan_feasible_prefix,
     replay,
+    plan_income_tail,
 )
 
 
@@ -108,6 +109,16 @@ def main():
 
     result, invalid = replay(constants, level, level_number, actions)
     result["_total_ticks"] = level["run"]["total_ticks"]
+    
+    if not invalid and result["final_tick"] < level["run"]["total_ticks"]:
+        print(f"\nAdding tail income phase (remaining ticks: {level['run']['total_ticks'] - result['final_tick']})...")
+        actions, result = plan_income_tail(
+            constants, level, level_number, hub, actions,
+            use_upkeep=False  # Level 3 doesn't have upkeep
+        )
+        # Re-verify the combined plan
+        result, invalid = replay(constants, level, level_number, actions)
+        result["_total_ticks"] = level["run"]["total_ticks"]
 
     print_result(result, meta, kept_pairs)
 
