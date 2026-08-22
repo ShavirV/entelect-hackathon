@@ -1,0 +1,228 @@
+{
+  "run": {
+    "total_ticks": 5000,
+    "starting_town": "Demacia",
+    "starting_enteloot": 500
+  },
+  "towns": {
+    "Demacia": {
+      "production": { "rate": 8, "resources": { "wheat": 3, "sheep": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 40,
+        "fish-n-chips": 50,
+        "stew": 50,
+        "wooden-crafts": 50,
+        "furniture": 65,
+        "stone-works": 60,
+        "roof-tiles": 70,
+        "wool-garments": 60,
+        "pottery": 70
+      },
+      "enteloot": { "rate": 5, "amount": 1200 }
+    },
+    "Noxus": {
+      "production": { "rate": 9, "resources": { "stone": 3, "wood": 3 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 35,
+        "fish-n-chips": 45,
+        "stew": 45,
+        "wooden-crafts": 40,
+        "furniture": 55,
+        "stone-works": 55,
+        "roof-tiles": 60,
+        "wool-garments": 50,
+        "pottery": 60
+      },
+      "enteloot": { "rate": 6, "amount": 1500 }
+    },
+    "Piltover": {
+      "production": { "rate": 10, "resources": { "fish": 3, "sheep": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 38,
+        "fish-n-chips": 48,
+        "stew": 48,
+        "wooden-crafts": 45,
+        "furniture": 60,
+        "stone-works": 55,
+        "roof-tiles": 65,
+        "wool-garments": 55,
+        "pottery": 65
+      },
+      "enteloot": { "rate": 4, "amount": 900 }
+    },
+    "Ionia": {
+      "production": { "rate": 8, "resources": { "wood": 2, "clay": 3 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 30,
+        "fish-n-chips": 40,
+        "stew": 40,
+        "wooden-crafts": 50,
+        "furniture": 60,
+        "stone-works": 50,
+        "roof-tiles": 60,
+        "wool-garments": 50,
+        "pottery": 65
+      },
+      "enteloot": { "rate": 7, "amount": 1800 }
+    },
+    "Freljord": {
+      "production": { "rate": 12, "resources": { "stone": 2, "clay": 2 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 32,
+        "fish-n-chips": 42,
+        "stew": 42,
+        "wooden-crafts": 42,
+        "furniture": 55,
+        "stone-works": 60,
+        "roof-tiles": 70,
+        "wool-garments": 48,
+        "pottery": 60
+      },
+      "enteloot": { "rate": 3, "amount": 700 }
+    },
+    "Bilgewater": {
+      "production": { "rate": 10, "resources": { "fish": 2, "wood": 2 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 28,
+        "fish-n-chips": 50,
+        "stew": 45,
+        "wooden-crafts": 45,
+        "furniture": 58,
+        "stone-works": 50,
+        "roof-tiles": 58,
+        "wool-garments": 52,
+        "pottery": 62
+      },
+      "enteloot": { "rate": 5, "amount": 1000 }
+    },
+    "Shadow Isles": {
+      "production": { "rate": 11, "resources": { "stone": 2, "sheep": 1 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 25,
+        "fish-n-chips": 35,
+        "stew": 38,
+        "wooden-crafts": 35,
+        "furniture": 50,
+        "stone-works": 55,
+        "roof-tiles": 60,
+        "wool-garments": 55,
+        "pottery": 58
+      },
+      "enteloot": { "rate": 4, "amount": 800 }
+    },
+    "Zaun": {
+      "production": { "rate": 9, "resources": { "wood": 3, "clay": 2 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 30,
+        "fish-n-chips": 40,
+        "stew": 42,
+        "wooden-crafts": 50,
+        "furniture": 62,
+        "stone-works": 48,
+        "roof-tiles": 60,
+        "wool-garments": 50,
+        "pottery": 70
+      },
+      "enteloot": { "rate": 6, "amount": 1100 }
+    },
+    "Shurima": {
+      "production": { "rate": 10, "resources": { "stone": 2, "wheat": 2 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 35,
+        "fish-n-chips": 42,
+        "stew": 45,
+        "wooden-crafts": 40,
+        "furniture": 52,
+        "stone-works": 58,
+        "roof-tiles": 62,
+        "wool-garments": 48,
+        "pottery": 60
+      },
+      "enteloot": { "rate": 5, "amount": 900 }
+    },
+    "Targon": {
+      "production": { "rate": 8, "resources": { "wheat": 2, "fish": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 35,
+        "fish-n-chips": 50,
+        "stew": 50,
+        "wooden-crafts": 42,
+        "furniture": 55,
+        "stone-works": 50,
+        "roof-tiles": 60,
+        "wool-garments": 52,
+        "pottery": 62
+      },
+      "enteloot": { "rate": 4, "amount": 750 }
+    }
+  },
+  "nodes": {
+    "N1": { "type": "fields", "resource": "wheat", "yield": 6, "gather-time": 2 },
+    "N2": { "type": "forest", "resource": "wood", "yield": 5, "gather-time": 2 },
+    "N3": { "type": "quarry", "resource": "stone", "yield": 5, "gather-time": 2 },
+    "N4": { "type": "clay-pit", "resource": "clay", "yield": 4, "gather-time": 2 },
+    "N5": { "type": "fishing-grounds", "resource": "fish", "yield": 4, "gather-time": 2 },
+    "N6": { "type": "pasture", "resource": "sheep", "yield": 3, "gather-time": 2 },
+    "N7": { "type": "fields", "resource": "wheat", "yield": 7, "gather-time": 2 },
+    "N8": { "type": "forest", "resource": "wood", "yield": 6, "gather-time": 2 },
+    "N9": { "type": "quarry", "resource": "stone", "yield": 6, "gather-time": 2 },
+    "N10": { "type": "clay-pit", "resource": "clay", "yield": 5, "gather-time": 2 },
+    "N11": { "type": "fishing-grounds", "resource": "fish", "yield": 5, "gather-time": 2 },
+    "N12": { "type": "pasture", "resource": "sheep", "yield": 4, "gather-time": 2 },
+    "N13": { "type": "fields", "resource": "wheat", "yield": 8, "gather-time": 2 },
+    "N14": { "type": "forest", "resource": "wood", "yield": 7, "gather-time": 2 }
+  },
+  "routes": [
+    { "between": ["Demacia", "N1"], "weight": 2, "toll": 0 },
+    { "between": ["Demacia", "N6"], "weight": 3, "toll": 0 },
+    { "between": ["Demacia", "Noxus"], "weight": 4, "toll": 0 },
+    { "between": ["Demacia", "Piltover"], "weight": 6, "toll": 0 },
+    { "between": ["Noxus", "N2"], "weight": 2, "toll": 0 },
+    { "between": ["Noxus", "N3"], "weight": 2, "toll": 0 },
+    { "between": ["Noxus", "Ionia"], "weight": 5, "toll": 0 },
+    { "between": ["Noxus", "Zaun"], "weight": 4, "toll": 0 },
+    { "between": ["Ionia", "N4"], "weight": 2, "toll": 0 },
+    { "between": ["Ionia", "N7"], "weight": 3, "toll": 0 },
+    { "between": ["Ionia", "Freljord"], "weight": 4, "toll": 0 },
+    { "between": ["Ionia", "Shurima"], "weight": 5, "toll": 0 },
+    { "between": ["Freljord", "N3"], "weight": 3, "toll": 0 },
+    { "between": ["Freljord", "N6"], "weight": 4, "toll": 0 },
+    { "between": ["Freljord", "N9"], "weight": 2, "toll": 0 },
+    { "between": ["Piltover", "N5"], "weight": 2, "toll": 0 },
+    { "between": ["Piltover", "N6"], "weight": 3, "toll": 0 },
+    { "between": ["Piltover", "Bilgewater"], "weight": 4, "toll": 0 },
+    { "between": ["Piltover", "N11"], "weight": 3, "toll": 0 },
+    { "between": ["Bilgewater", "N8"], "weight": 2, "toll": 0 },
+    { "between": ["Bilgewater", "N12"], "weight": 3, "toll": 0 },
+    { "between": ["Bilgewater", "Shadow Isles"], "weight": 5, "toll": 0 },
+    { "between": ["Shadow Isles", "N10"], "weight": 2, "toll": 0 },
+    { "between": ["Shadow Isles", "N13"], "weight": 3, "toll": 0 },
+    { "between": ["Shadow Isles", "Targon"], "weight": 4, "toll": 0 },
+    { "between": ["Zaun", "N4"], "weight": 3, "toll": 0 },
+    { "between": ["Zaun", "N14"], "weight": 2, "toll": 0 },
+    { "between": ["Zaun", "Shurima"], "weight": 4, "toll": 0 },
+    { "between": ["Shurima", "N7"], "weight": 2, "toll": 0 },
+    { "between": ["Shurima", "Targon"], "weight": 5, "toll": 0 },
+    { "between": ["Targon", "N13"], "weight": 2, "toll": 0 }
+  ]
+}
