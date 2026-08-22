@@ -64,12 +64,17 @@ def main():
 
     result, invalid = replay(constants, level, level_number, actions)
     result["_total_ticks"] = level["run"]["total_ticks"]
-    
+
+    # See solver_level3.py for why this is capped rather than on/off.
+    MAX_TAIL_TICKS = 3000
     if not invalid and result["final_tick"] < level["run"]["total_ticks"]:
-        print(f"\nAdding tail income phase (remaining ticks: {level['run']['total_ticks'] - result['final_tick']})...")
+        idle = level["run"]["total_ticks"] - result["final_tick"]
+        print(f"\nAdding capped tail income phase (idle ticks: {idle}, "
+              f"using up to {min(idle, MAX_TAIL_TICKS)})...")
         actions, result = plan_income_tail(
             constants, level, level_number, hub, actions,
-            use_upkeep=True  # Level 4 has upkeep - trigger it at hub for bonus
+            use_upkeep=True,  # Level 4 has upkeep - trigger it at hub for bonus
+            max_tail_ticks=MAX_TAIL_TICKS,
         )
         # Re-verify the combined plan
         result, invalid = replay(constants, level, level_number, actions)

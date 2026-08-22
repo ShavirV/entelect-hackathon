@@ -632,12 +632,23 @@ def _estimate_tail_ticks_per_unit(constants, level, level_number, hub):
     return recipe_name, ticks_per_unit
 
 
-def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upkeep=False):
-    """Append a single large income batch to `prior_actions`, sized via a
-    bounded local search to use as much of the remaining tick budget as
-    possible without introducing any invalid/cutoff actions. Returns
-    (combined_actions, result) - if no income recipe / no reachable inputs
-    exist, returns prior_actions unchanged."""
+def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upkeep=False,
+                      max_tail_ticks=None):
+    """Append a single income batch to `prior_actions`, sized via a bounded
+    local search. Returns (combined_actions, result) - if no income recipe /
+    no reachable inputs exist, returns prior_actions unchanged.
+
+    `max_tail_ticks` caps how much of the remaining tick budget the batch is
+    allowed to consume (None = old behaviour: use as much of the remaining
+    budget as possible). This matters because both the batch-size search
+    cost and the resulting action-list size scale with the ticks the batch
+    is allowed to spend, while the marginal Enteloot from each additional
+    unit sold is identical throughout - if hoarded Enteloot is worth less
+    than invested Enteloot (per the spec) but still worth *something*, a
+    capped batch captures most of that value for a small fraction of the
+    actions/runtime of an uncapped one. Tune the cap per level based on
+    measured results (see compare_tail_variants.py) rather than guessing.
+    """
     total_ticks = level["run"]["total_ticks"]
     adj = build_adjacency(level["routes"])
 
@@ -648,6 +659,15 @@ def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upk
     remaining_ticks = total_ticks - base_result["final_tick"]
     if remaining_ticks <= 0:
         return prior_actions, base_result
+    if max_tail_ticks is not None:
+        remaining_ticks = min(remaining_ticks, max_tail_ticks)
+    # Hard ceiling on ticks the batch itself may consume, independent of the
+    # overall total_ticks budget. Previously max_tail_ticks only seeded the
+    # initial guess - the grow-while-feasible search below would then climb
+    # right back past it since its only stopping condition was the run's
+    # full tick budget. Enforcing it inside feasible() is what actually caps
+    # the batch (and therefore the action count).
+    tail_tick_ceiling = base_result["final_tick"] + remaining_ticks
 
     recipe_name, ticks_per_unit = _estimate_tail_ticks_per_unit(constants, level, level_number, hub)
     if recipe_name is None:
@@ -662,7 +682,8 @@ def plan_income_tail(constants, level, level_number, hub, prior_actions, use_upk
             return False, None
         combined = prior_actions + batch
         result, invalid = replay(constants, level, level_number, combined)
-        ok = (not invalid) and result["final_tick"] <= total_ticks
+        ok = ((not invalid) and result["final_tick"] <= total_ticks
+              and result["final_tick"] <= tail_tick_ceiling)
         return ok, combined
 
     # Start from an analytic estimate (ignoring travel/toll overhead, hence
