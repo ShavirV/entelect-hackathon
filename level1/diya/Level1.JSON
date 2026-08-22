@@ -1,0 +1,89 @@
+{
+  "run": {
+    "total_ticks": 1000,
+    "starting_town": "Demacia",
+    "starting_enteloot": 200
+  },
+  "towns": {
+    "Demacia": {
+      "production": { "rate": 8, "resources": { "wheat": 3, "sheep": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 25, "fish-n-chips": 30, "stew": 38, "wooden-crafts": 30,
+        "furniture": 50, "stone-works": 40, "roof-tiles": 55,
+        "wool-garments": 45, "pottery": 60
+      },
+      "enteloot": { "rate": 5, "amount": 1200 }
+    },
+    "Noxus": {
+      "production": { "rate": 9, "resources": { "stone": 3, "wood": 3 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 25, "fish-n-chips": 30, "stew": 38, "wooden-crafts": 30,
+        "furniture": 50, "stone-works": 40, "roof-tiles": 55,
+        "wool-garments": 45, "pottery": 60
+      },
+      "enteloot": { "rate": 6, "amount": 1500 }
+    },
+    "Piltover": {
+      "production": { "rate": 10, "resources": { "fish": 3, "sheep": 2 } },
+      "upgrades": [],
+      "affinities": ["crafting"],
+      "item-rates": {
+        "bread": 25, "fish-n-chips": 30, "stew": 38, "wooden-crafts": 30,
+        "furniture": 50, "stone-works": 40, "roof-tiles": 55,
+        "wool-garments": 45, "pottery": 60
+      },
+      "enteloot": { "rate": 4, "amount": 900 }
+    },
+    "Ionia": {
+      "production": { "rate": 8, "resources": { "wood": 2, "clay": 3 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 25, "fish-n-chips": 30, "stew": 38, "wooden-crafts": 30,
+        "furniture": 50, "stone-works": 40, "roof-tiles": 55,
+        "wool-garments": 45, "pottery": 60
+      },
+      "enteloot": { "rate": 7, "amount": 1800 }
+    },
+    "Freljord": {
+      "production": { "rate": 12, "resources": { "stone": 2, "clay": 2 } },
+      "upgrades": [],
+      "affinities": [],
+      "item-rates": {
+        "bread": 25, "fish-n-chips": 30, "stew": 38, "wooden-crafts": 30,
+        "furniture": 50, "stone-works": 40, "roof-tiles": 55,
+        "wool-garments": 45, "pottery": 60
+      },
+      "enteloot": { "rate": 3, "amount": 700 }
+    }
+  },
+  "nodes": {
+    "N1": { "type": "fields",           "resource": "wheat", "yield": 6, "gather-time": 2 },
+    "N2": { "type": "forest",           "resource": "wood",  "yield": 5, "gather-time": 2 },
+    "N3": { "type": "quarry",           "resource": "stone", "yield": 5, "gather-time": 2 },
+    "N4": { "type": "clay-pit",         "resource": "clay",  "yield": 4, "gather-time": 2 },
+    "N5": { "type": "fishing-grounds",  "resource": "fish",  "yield": 4, "gather-time": 2 },
+    "N6": { "type": "pasture",          "resource": "sheep", "yield": 3, "gather-time": 2 },
+    "N7": { "type": "fields",           "resource": "wheat", "yield": 7, "gather-time": 2 }
+  },
+  "routes": [
+    { "between": ["Demacia", "N1"],      "weight": 2, "toll": 0 },
+    { "between": ["Demacia", "N6"],      "weight": 3, "toll": 0 },
+    { "between": ["Demacia", "Noxus"],   "weight": 4, "toll": 0 },
+    { "between": ["Noxus", "N2"],        "weight": 2, "toll": 0 },
+    { "between": ["Noxus", "N3"],        "weight": 2, "toll": 0 },
+    { "between": ["Noxus", "Ionia"],     "weight": 5, "toll": 0 },
+    { "between": ["Ionia", "N4"],        "weight": 2, "toll": 0 },
+    { "between": ["Ionia", "N7"],        "weight": 3, "toll": 0 },
+    { "between": ["Ionia", "Freljord"],  "weight": 4, "toll": 0 },
+    { "between": ["Freljord", "N3"],     "weight": 3, "toll": 0 },
+    { "between": ["Freljord", "N6"],     "weight": 4, "toll": 0 },
+    { "between": ["Piltover", "N5"],     "weight": 2, "toll": 0 },
+    { "between": ["Piltover", "N6"],     "weight": 3, "toll": 0 },
+    { "between": ["Piltover", "Demacia"],"weight": 6, "toll": 0 }
+  ]
+}
