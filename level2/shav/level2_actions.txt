@@ -1,0 +1,1675 @@
+{
+  "actions": [
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N5"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "N3"
+    },
+    {
+      "type": "travel",
+      "destination": "N9"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "N3"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "kiln-glass",
+      "quantity": 40
+    },
+    {
+      "type": "craft",
+      "item": "planks",
+      "quantity": 230
+    },
+    {
+      "type": "craft",
+      "item": "mortar",
+      "quantity": 230
+    },
+    {
+      "type": "craft",
+      "item": "bricks",
+      "quantity": 230
+    },
+    {
+      "type": "craft",
+      "item": "rope",
+      "quantity": 130
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 60
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 60
+    },
+    {
+      "type": "craft",
+      "item": "thatch",
+      "quantity": 40
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 20
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Ixtal"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Ionia"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Targon"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Zaun"
+    },
+    {
+      "type": "travel",
+      "destination": "N1"
+    },
+    {
+      "type": "travel",
+      "destination": "Piltover"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Freljord"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "travel",
+      "destination": "N11"
+    },
+    {
+      "type": "travel",
+      "destination": "Noxus"
+    },
+    {
+      "type": "build",
+      "upgrade": "farmhouse"
+    },
+    {
+      "type": "build",
+      "upgrade": "pier"
+    },
+    {
+      "type": "build",
+      "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "quarry"
+    },
+    {
+      "type": "build",
+      "upgrade": "woodlands"
+    },
+    {
+      "type": "build",
+      "upgrade": "pottery-house"
+    },
+    {
+      "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    }
+  ]
+}
