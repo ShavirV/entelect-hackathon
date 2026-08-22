@@ -120,33 +120,78 @@
       "type": "gather"
     },
     {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
       "type": "travel",
       "destination": "Shurima"
     },
     {
       "type": "travel",
       "destination": "N14"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
     },
     {
       "type": "gather"
@@ -3388,21 +3433,6 @@
       "type": "gather"
     },
     {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
-    },
-    {
       "type": "travel",
       "destination": "Shurima"
     },
@@ -3417,6 +3447,54 @@
     {
       "type": "travel",
       "destination": "N9"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
     },
     {
       "type": "gather"
@@ -3606,12 +3684,6 @@
     {
       "type": "travel",
       "destination": "N11"
-    },
-    {
-      "type": "gather"
-    },
-    {
-      "type": "gather"
     },
     {
       "type": "gather"
@@ -3842,57 +3914,57 @@
     {
       "type": "craft",
       "item": "kiln-glass",
-      "quantity": 2
+      "quantity": 26
     },
     {
       "type": "craft",
       "item": "planks",
-      "quantity": 153
+      "quantity": 148
     },
     {
       "type": "craft",
       "item": "mortar",
-      "quantity": 126
+      "quantity": 147
     },
     {
       "type": "craft",
       "item": "bricks",
-      "quantity": 126
+      "quantity": 147
     },
     {
       "type": "craft",
       "item": "rope",
-      "quantity": 130
-    },
-    {
-      "type": "craft",
-      "item": "stone-blocks",
-      "quantity": 60
-    },
-    {
-      "type": "craft",
-      "item": "fencing",
-      "quantity": 60
-    },
-    {
-      "type": "craft",
-      "item": "nets",
-      "quantity": 20
+      "quantity": 79
     },
     {
       "type": "craft",
       "item": "thatch",
-      "quantity": 40
+      "quantity": 26
+    },
+    {
+      "type": "craft",
+      "item": "stone-blocks",
+      "quantity": 36
+    },
+    {
+      "type": "craft",
+      "item": "fencing",
+      "quantity": 36
+    },
+    {
+      "type": "craft",
+      "item": "nets",
+      "quantity": 12
     },
     {
       "type": "craft",
       "item": "wool-garments",
-      "quantity": 1337
+      "quantity": 1400
     },
     {
       "type": "sell",
       "item": "wool-garments",
-      "quantity": 1337
+      "quantity": 1400
     },
     {
       "type": "build",
@@ -3900,7 +3972,23 @@
     },
     {
       "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "build",
       "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
     },
     {
       "type": "build",
@@ -3917,50 +4005,10 @@
     {
       "type": "build",
       "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
     },
     {
       "type": "travel",
       "destination": "Shurima"
-    },
-    {
-      "type": "build",
-      "upgrade": "farmhouse"
-    },
-    {
-      "type": "build",
-      "upgrade": "fertilised-fields"
-    },
-    {
-      "type": "build",
-      "upgrade": "woodlands"
-    },
-    {
-      "type": "build",
-      "upgrade": "pier"
-    },
-    {
-      "type": "build",
-      "upgrade": "quarry"
-    },
-    {
-      "type": "build",
-      "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
     },
     {
       "type": "travel",
@@ -3972,7 +4020,23 @@
     },
     {
       "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "build",
       "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
     },
     {
       "type": "build",
@@ -3989,14 +4053,6 @@
     {
       "type": "build",
       "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
     },
     {
       "type": "travel",
@@ -4008,7 +4064,23 @@
     },
     {
       "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "build",
       "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
     },
     {
       "type": "build",
@@ -4025,14 +4097,6 @@
     {
       "type": "build",
       "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
     },
     {
       "type": "travel",
@@ -4044,119 +4108,11 @@
     },
     {
       "type": "build",
-      "upgrade": "fertilised-fields"
-    },
-    {
-      "type": "build",
-      "upgrade": "woodlands"
-    },
-    {
-      "type": "build",
-      "upgrade": "pier"
-    },
-    {
-      "type": "build",
-      "upgrade": "quarry"
-    },
-    {
-      "type": "build",
-      "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
       "upgrade": "rec-center"
     },
     {
       "type": "build",
-      "upgrade": "fire-station"
-    },
-    {
-      "type": "travel",
-      "destination": "N1"
-    },
-    {
-      "type": "travel",
-      "destination": "Zaun"
-    },
-    {
-      "type": "build",
-      "upgrade": "farmhouse"
-    },
-    {
-      "type": "build",
-      "upgrade": "fertilised-fields"
-    },
-    {
-      "type": "build",
-      "upgrade": "woodlands"
-    },
-    {
-      "type": "build",
-      "upgrade": "pier"
-    },
-    {
-      "type": "build",
-      "upgrade": "quarry"
-    },
-    {
-      "type": "build",
-      "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
-    },
-    {
-      "type": "travel",
-      "destination": "Targon"
-    },
-    {
-      "type": "build",
-      "upgrade": "farmhouse"
-    },
-    {
-      "type": "build",
-      "upgrade": "fertilised-fields"
-    },
-    {
-      "type": "build",
-      "upgrade": "woodlands"
-    },
-    {
-      "type": "build",
-      "upgrade": "pier"
-    },
-    {
-      "type": "build",
-      "upgrade": "quarry"
-    },
-    {
-      "type": "build",
-      "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
-    },
-    {
-      "type": "travel",
-      "destination": "Zaun"
-    },
-    {
-      "type": "travel",
-      "destination": "N1"
-    },
-    {
-      "type": "travel",
-      "destination": "Piltover"
+      "upgrade": "school"
     },
     {
       "type": "travel",
@@ -4176,7 +4132,23 @@
     },
     {
       "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "build",
       "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
     },
     {
       "type": "build",
@@ -4193,14 +4165,6 @@
     {
       "type": "build",
       "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
     },
     {
       "type": "travel",
@@ -4220,7 +4184,23 @@
     },
     {
       "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "build",
       "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
     },
     {
       "type": "build",
@@ -4237,18 +4217,6 @@
     {
       "type": "build",
       "upgrade": "pottery-house"
-    },
-    {
-      "type": "build",
-      "upgrade": "rec-center"
-    },
-    {
-      "type": "build",
-      "upgrade": "fire-station"
-    },
-    {
-      "type": "build",
-      "upgrade": "school"
     },
     {
       "type": "travel",
@@ -4264,7 +4232,23 @@
     },
     {
       "type": "build",
+      "upgrade": "rec-center"
+    },
+    {
+      "type": "build",
+      "upgrade": "school"
+    },
+    {
+      "type": "build",
+      "upgrade": "library"
+    },
+    {
+      "type": "build",
       "upgrade": "fertilised-fields"
+    },
+    {
+      "type": "build",
+      "upgrade": "fire-station"
     },
     {
       "type": "build",
@@ -4283,12 +4267,80 @@
       "upgrade": "pottery-house"
     },
     {
-      "type": "build",
-      "upgrade": "rec-center"
+      "type": "travel",
+      "destination": "N11"
     },
     {
-      "type": "build",
-      "upgrade": "fire-station"
+      "type": "travel",
+      "destination": "Bilgewater"
+    },
+    {
+      "type": "travel",
+      "destination": "N2"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "N14"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
+      "type": "travel",
+      "destination": "Shurima"
+    },
+    {
+      "type": "travel",
+      "destination": "Demacia"
+    },
+    {
+      "type": "craft",
+      "item": "wool-garments",
+      "quantity": 13
+    },
+    {
+      "type": "sell",
+      "item": "wool-garments",
+      "quantity": 13
     }
   ]
 }
