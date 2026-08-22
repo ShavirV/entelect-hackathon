@@ -281,22 +281,32 @@ class Simulator:
 
     # -----------------------------------------------------------------
     def summary(self):
+        """Returns summary with both score calculation and engine-compatible format."""
         inv = self.current_inventory()
         enteloot = self.current_enteloot()
         held_value = sum(inv[r] * self.resources[r]["sell_price"] for r in self.resources)
         base_score = enteloot + held_value
-        # constants.json gives an explicit sell_bonus_multiplier (1.5).
-        # Spec text: "generation of Enteloot, as well as the value of items
-        # held at end. A multiplier will be applied based on the number of
-        # items you sold." Read literally with the given constant: engaging
-        # in selling at all applies the flat bonus multiplier to the base
-        # score; never having sold anything leaves the base score unscaled.
         multiplier = self.const["sell_bonus_multiplier"] if self.items_sold_count > 0 else 1.0
         score = base_score * multiplier
+        
         return {
+            # Engine-compatible format
             "final_tick": self.tick,
+            "final_location": self.location,
             "final_enteloot": enteloot,
             "final_inventory": inv,
+            "log": [
+                {
+                    "tick": entry.tick_after,
+                    "action": entry.action,
+                    "ok": entry.valid,
+                    "detail": entry.detail,
+                    "ticks": entry.ticks_used,
+                    "enteloot": entry.enteloot_after,
+                }
+                for entry in self.log
+            ],
+            # Additional Simulator-specific scoring fields
             "items_sold_count": self.items_sold_count,
             "held_value": held_value,
             "sell_bonus_multiplier_applied": multiplier,
