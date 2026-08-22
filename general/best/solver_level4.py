@@ -64,16 +64,12 @@ def main():
 
     result, invalid = replay(constants, level, level_number, actions)
     result["_total_ticks"] = level["run"]["total_ticks"]
-
-    # Uncapped - see solver_level3.py. Real grader weights final Enteloot
-    # heavily; runtime doesn't matter, so maximize the tail.
+    
     if not invalid and result["final_tick"] < level["run"]["total_ticks"]:
-        idle = level["run"]["total_ticks"] - result["final_tick"]
-        print(f"\nAdding tail income phase (idle ticks: {idle})...")
+        print(f"\nAdding tail income phase (remaining ticks: {level['run']['total_ticks'] - result['final_tick']})...")
         actions, result = plan_income_tail(
             constants, level, level_number, hub, actions,
-            use_upkeep=True,  # Level 4 has upkeep - trigger it at hub for bonus
-            max_tail_ticks=None,
+            use_upkeep=True  # Level 4 has upkeep - trigger it at hub for bonus
         )
         # Re-verify the combined plan
         result, invalid = replay(constants, level, level_number, actions)

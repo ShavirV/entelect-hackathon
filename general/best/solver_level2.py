@@ -110,13 +110,7 @@ def main():
     result, invalid = replay(constants, level, level_number, actions)
     result["_total_ticks"] = level["run"]["total_ticks"]
     
-    # Skip the tail entirely once every candidate upgrade is already built -
-    # there's nothing left to invest in, and on this level the hoarded
-    # Enteloot the tail would generate measured as pure overhead (bigger
-    # action list, longer solve, no score gain). Levels 3/4 measured the
-    # opposite (see their solvers), so this guard is intentionally level-2-only.
-    if (not invalid and result["final_tick"] < level["run"]["total_ticks"]
-            and len(kept_pairs) < len(ordered_pairs)):
+    if not invalid and result["final_tick"] < level["run"]["total_ticks"]  and len(kept_pairs) < len(ordered_pairs):
         print(f"\nAdding tail income phase (remaining ticks: {level['run']['total_ticks'] - result['final_tick']})...")
         actions, result = plan_income_tail(
             constants, level, level_number, hub, actions,

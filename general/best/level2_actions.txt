@@ -4249,6 +4249,12 @@
       "type": "gather"
     },
     {
+      "type": "gather"
+    },
+    {
+      "type": "gather"
+    },
+    {
       "type": "travel",
       "destination": "Shurima"
     },
@@ -4259,36 +4265,12 @@
     {
       "type": "craft",
       "item": "stone-works",
-      "quantity": 20
-    },
-    {
-      "type": "travel",
-      "destination": "Shurima"
-    },
-    {
-      "type": "travel",
-      "destination": "Ixtal"
-    },
-    {
-      "type": "travel",
-      "destination": "Ionia"
-    },
-    {
-      "type": "travel",
-      "destination": "Piltover"
-    },
-    {
-      "type": "travel",
-      "destination": "N1"
-    },
-    {
-      "type": "travel",
-      "destination": "Zaun"
+      "quantity": 23
     },
     {
       "type": "sell",
       "item": "stone-works",
-      "quantity": 20
+      "quantity": 23
     }
   ]
 }

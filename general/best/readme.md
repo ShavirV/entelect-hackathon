@@ -1,0 +1,1 @@
+Simply run the relevant `solver_level<n>.py` script with the relevant `<n>.txt` in the working directory. A summary will be printed on screen along with the `level<n>_actions.txt` which is directly submitted for scoring. 

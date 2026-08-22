@@ -78200,16 +78200,12 @@
     {
       "type": "craft",
       "item": "wool-garments",
-      "quantity": 56678
-    },
-    {
-      "type": "travel",
-      "destination": "Marrowfen"
+      "quantity": 56680
     },
     {
       "type": "sell",
       "item": "wool-garments",
-      "quantity": 56678
+      "quantity": 56680
     }
   ]
 }
